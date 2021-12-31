@@ -1,0 +1,17 @@
+[package]
+edition = "2021"
+name = "usuc"
+version = "0.1.0"
+
+[dependencies]
+anyhow = "*"
+rand = "*"
+serde_yaml = "*"
+iced = "0.3.0"
+
+[dependencies.usuc-macros]
+path = "../usuc-macros"
+
+[dependencies.serde]
+features = ["derive"]
+version = "*"

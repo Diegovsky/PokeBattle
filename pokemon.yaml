@@ -1,0 +1,22 @@
+- name: Eevee
+  health: 120
+  attacks:
+    - name: Tackle
+      damage: 10
+    - name: Restart
+      damage: 10
+    - name: Callipso
+      damage: 10
+    - name: BREAK DANCE
+      damage: 10
+- name: Bulbasaur
+  health: 120
+  attacks:
+    - name: Splash
+      damage: 10.0
+    - name: Whip
+      damage: 11.0
+    - name: Put the mask
+      damage: 0.0
+    - name: Sing
+      damage: 999.0
